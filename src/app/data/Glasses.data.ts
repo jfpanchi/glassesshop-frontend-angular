@@ -1,7 +1,7 @@
 export const glasses: any[] = [
   {
     id: 'GLA1',
-    img: '/assets/glasses/glasse-1.png',
+    img: './assets/glasses/glasse-1.png',
     precio: 30,
     color: '#211526',
     description: 'Gafas Redondas',
