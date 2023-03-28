@@ -1,0 +1,108 @@
+.glasse {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.glasse-content {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img-glasse img {
+  width: 700px;
+  height: 300px;
+}
+
+.glasse-details {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.price {
+  margin: 0 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.divider {
+  margin: 0 20px;
+}
+
+.divider .line {
+  height: 40px;
+}
+
+.color {
+  margin: 0 30px;
+}
+
+.color-container {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.color-select{
+    width: 30px;
+    height: 30px;
+    border: 5px outset white;
+    border-radius: 50%;
+}
+
+.buy {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 1000px){
+  .img-glasse img {
+    width: 500px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .img-glasse img {
+    width: 300px;
+    height: 100px;
+  }
+
+  .buy {
+    font-size: 1rem;
+  }
+
+  .price {
+    font-size: 1rem;
+  }
+}

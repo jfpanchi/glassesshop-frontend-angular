@@ -1,0 +1,37 @@
+<div class="glasse">
+  <div class="glasse-content">
+    <div class="img-glasse">
+      <img [src]="glasse.img">
+    </div>
+  </div>
+  <div class="glasse-details">
+    <div class="details">
+      <div class="price">
+        GLASSES {{glasse.precio | currency}}
+      </div>
+      <div class="divider">
+        <hr class="line" width="2px" noshade="noshade">
+      </div>
+      <div class="color">
+        <div class="color-container">
+          <div class="color-select" [ngStyle]="{'background-color': glasse.color}">
+
+          </div>
+        </div>
+      </div>
+      <div class="product">
+
+      </div>
+      <a class="buy">COMPRAR</a>
+    </div>
+  </div>
+</div>
+
+<div class="buttons">
+  <div class="next">
+    <a [ngClass]="{'disabled': isDisabledNext}" (click)="next()"><i class="fa-solid fa-chevron-right fa-6x"></i></a>
+  </div>
+  <div class="preview">
+    <a [ngClass]="{'disabled': isDisabledPreview}" (click)="preview()"><i class="fa-solid fa-chevron-left fa-6x"></i></a>
+  </div>
+</div>

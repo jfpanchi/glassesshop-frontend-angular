@@ -1,0 +1,24 @@
+.icon h1 {
+    font-weight:900;
+}
+
+.icon h1:hover {
+    cursor: pointer;
+    color: #59A4B9;
+}
+
+.options a {
+    margin: 4px;
+}
+
+.options a i {
+    opacity: 0.8;
+}
+
+.options a i:hover {
+    cursor: pointer;
+    color: #59A4B9;
+    opacity: 1;
+}
+
+
